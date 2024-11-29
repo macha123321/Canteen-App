@@ -1,0 +1,429 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2; /* Light grey background */
+    color: #333; /* Dark text for readability */
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/* Header Styles */
+header {
+    background-color: #232f3e; /* Dark blue header */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #ffffff; /* White background for list items */
+    border: 1px solid #d9d9d9; /* Light border */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+/* Link Styles */
+a {
+    color: #ff9900; /* Amazon orange */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+    background: #ffffff; /* White background */
+    border: 1px solid #d9d9d9; /* Light border */
+    border-radius: 5px;
+    padding: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea, input[type="text"], input[type="password"] {
+    width: 100%; /* Fit within the container */
+    height: 150px; /* Fixed height for textarea */
+    resize: none; /* Prevent resizing of textarea */
+    padding: 10px;
+    border: 1px solid #ced4da; /* Light grey border */
+    border-radius: 5px;
+    margin-bottom: 15px;
+    overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-wrap: break-word;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    border-color: #ff9900; /* Amazon orange border on focus */
+    outline: none; /* Remove default outline */
+    overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-wrap: break-word;
+}
+
+button {
+    background-color: #ff9900; /* Amazon orange */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e68a00; /* Darker orange on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f1f1f1; /* Light grey footer */
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Paragraph Styles */
+p {
+    margin-bottom: 15px; /* Space between paragraphs */
+    font-size: 1rem; /* Default font size */
+    line-height: 1.8; /* Increase line height for readability */
+}
+
+/* Link Styles */
+a {
+    color: #ff9900; /* Amazon orange */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #e68a00; /* Darker orange on hover */
+}
+
+/* Active Link Styles */
+a:active {
+    color: #cc7a00; /* Even darker orange when active */
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #232f3e; /* Dark blue background for nav */
+    padding: 15px 0;
+}
+
+nav ul {
+    display: flex; /* Horizontal layout for nav items */
+    justify-content: center; /* Center nav items */
+    padding: 0; /* Reset padding */
+}
+
+nav li {
+    margin: 0 15px; /* Space between nav items */
+}
+
+nav a {
+    color: #ffffff; /* White text color for nav links */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold text for emphasis */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #ff9900; /* Amazon orange on hover */
+}
+
+/* Error Message Styles */
+p.error {
+    color: #ff0000; /* Red text for errors */
+    background-color: #ffe6e6; /* Light red background */
+    border: 1px solid #ffcccc; /* Light red border */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px; /* Space above error message */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+    color: #FF9900;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-add {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+    overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-wrap: break-word;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #FF9900;
+    outline: none;
+    overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-wrap: break-word;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #e68a00;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.form-add-admin {
+    display: none;
+}
+
+input[type="radio"]{
+    margin: 0 10px 0 10px;
+  }
+
+button {
+        width: 100%;
+        padding: 10px;
+        background-color: #FF9900;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+button:hover {
+    background-color: #e68a00;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 15px; /* Space between buttons */
+    padding: 20px; /* Padding for the container */
+    background: #ffffff; /* White background for the container */
+    border-radius: 5px; /* Rounded corners for the container */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.menu-items {
+    background-color: #f2f2f2; /* Light grey button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 15px; /* Padding for buttons */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-align: center; /* Centered text */
+    color: #000000;
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.menu-items:hover {
+    background-color: #e0e0e0; /* Darker grey on hover */
+}
+
+/* General layout and styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.menu-items {
+    border: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+    width: 150px;
+    background-color: #f4f4f4;
+}
+
+.menu-items:hover {
+    background-color: #e0e0e0;
+}
+
+.order-summary {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+#order-summary-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#order-summary-list li {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+button.remove-item, button.add-item {
+    padding: 3px 6px;  /* Smaller padding */
+    font-size: 10px;   /* Smaller font size */
+    cursor: pointer;
+    border-radius: 50%;  /* Round the buttons */
+    width: 20px;         /* Fixed width */
+    height: 20px;        /* Fixed height */
+    display: inline-block;  /* Align properly */
+    text-align: center;
+}
+
+button.remove-item {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+}
+
+button.add-item {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+button.remove-item:hover, button.add-item:hover {
+    opacity: 0.8;
+}
+
+button#reset-cart, button#finish-order {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+button#reset-cart:hover, button#finish-order:hover {
+    background-color: #0056b3;
+}
+
+.btn-small {
+    font-size: 10px;
+    padding: 2px 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.order-summary {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #45a049;
+}
+
+.container-menu-items {
+    background-color: #f2f2f2; /* Light grey button */
+    border-radius: 4px; /* Rounded corners */
+    padding: 15px; /* Padding for buttons */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-align: center; /* Centered text */
+    color: #000000;
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
